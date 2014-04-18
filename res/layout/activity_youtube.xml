@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_background"
+    android:orientation="vertical" >
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            android:id="@+id/youtube_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/youtube_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/youtube_category"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="@style/PhotoListText" />
+
+        <RelativeLayout
+            android:id="@+id/youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/youtube_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp" >
+
+            <ImageView
+                android:id="@+id/youtube_webview"
+                android:layout_width="42.0dp"
+                android:layout_height="42.0dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/skyblue_button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_web" />
+
+            <ImageView
+                android:id="@+id/youtube_add_to_myclips"
+                android:layout_width="42.0dp"
+                android:layout_height="42.0dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/youtube_webview"
+                android:background="@drawable/skyblue_button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_star_full" />
+
+            <ImageView
+                android:id="@+id/youtube_comment"
+                android:layout_width="42.0dp"
+                android:layout_height="42.0dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/youtube_add_to_myclips"
+                android:background="@drawable/skyblue_button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_write" />
+
+            <ImageView
+                android:id="@+id/youtube_share"
+                android:layout_width="42.0dp"
+                android:layout_height="42.0dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/youtube_comment"
+                android:background="@drawable/skyblue_button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_download" />
+
+            <ImageView
+                android:id="@+id/youtube_report"
+                android:layout_width="42.0dp"
+                android:layout_height="42.0dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/youtube_share"
+                android:background="@drawable/skyblue_button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_error" />
+
+            <CheckBox
+                android:id="@+id/rotation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/youtube_report"
+                android:layout_centerVertical="true"
+                android:text="@string/rotation" />
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/loading"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/youtube_title"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ProgressBar
+            android:id="@+id/loading"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/youtube_no_comments"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ca.paulshin.yunatube.youtube.YouTubeCommentListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/list_background"
+            android:cacheColorHint="@android:color/transparent"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:drawSelectorOnTop="false"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

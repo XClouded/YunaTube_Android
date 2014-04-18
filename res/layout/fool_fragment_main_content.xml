@@ -1,0 +1,214 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/full_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" >
+
+        <LinearLayout
+            android:id="@+id/layout_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fool_main_image"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3" >
+
+                <TextView
+                    android:id="@+id/notice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/buttons"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="올림픽 스피드 스케이팅 500미터 2연속 챔피언 빙속여제 이상화선수의 모든 것, 상화튜브에 오신것을 환영합니다. 많은 응원과 격려 부탁드립니다^^" />
+
+                <RelativeLayout
+                    android:id="@+id/buttons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/faves"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/main_button_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_faves" />
+
+                    <ImageView
+                        android:id="@+id/hot_news"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_toLeftOf="@+id/faves"
+                        android:background="@drawable/main_button_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_hotnews" />
+
+                    <ImageView
+                        android:id="@+id/jukebox"
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@+id/faves"
+                        android:background="@drawable/main_button_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_jukebox" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fact_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_top"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/fact_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:gravity="center_vertical"
+                    android:text="오늘의 상화 팩트"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fact_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"
+                    android:text="더 보기"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/fact_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:padding="7dp" >
+
+                <TextView
+                    android:id="@+id/fact_text"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="3"
+                    android:text="슬럼프는 자기 내면에 있는 꾀병인 것 같아요. 마음 속 어디엔가 하기 싫은 구석이 있는데 슬럼프를 핑계로 안하는 것이죠. 하지만 저는 반대로 끊임없이 도전했어요. - 이상화"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <ImageView
+                    android:id="@+id/today_photo"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fool_today_photo" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/new_clips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fact_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:text="따끈따끈한 영상들"
+                android:textColor="@color/dark_grey"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/new_clips_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:id="@+id/new_clips_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" >
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="45dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/slide_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/slide_guide"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/main_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/main_footer" />
+    </RelativeLayout>
+
+</ScrollView>

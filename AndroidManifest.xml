@@ -1,0 +1,154 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.paulshin.yunatube"
+    android:versionCode="78"
+    android:versionName="4.0.6" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <permission
+        android:name="ca.paulshin.yunatube.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="ca.paulshin.yunatube.permission.C2D_MESSAGE" />
+    <uses-permission android:name="ca.paulshin.yunatube.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="ca.paulshin.yunatube.YunaTubeApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/YunaTubeTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".main.Splash"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="ca.paulshin.yunatube.image.album.PhotoGalleryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.paulshin.yunatube.image.gifs.GifGalleryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="ca.paulshin.yunatube.image.gifs.MyGifGalleryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".youtube.YouTubeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
+            android:name=".main.SearchActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".main.HotNewsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".main.SettingsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".main.TodayPhotoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".chat.ChatActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".main.MyFavesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
+            android:name=".jukebox.JukeboxActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
+            android:name=".game.RankingActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver
+            android:name=".services.broadcast.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="ca.paulshin.yunatube" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".services.broadcast.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="ca.paulshin.yunatube.intent.download" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".services.broadcast.DataChangeReceiver" >
+            <intent-filter>
+                <action android:name="ca.paulshin.yunatube.intent.data" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".services.broadcast.ChatUserChangeReceiver" >
+            <intent-filter>
+                <action android:name="ca.paulshin.yunatube.intent.chatuser" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".services.broadcast.ChatDataChangeReceiver" >
+            <intent-filter>
+                <action android:name="ca.paulshin.yunatube.intent.chatdata" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".services.GCMIntentService" />
+        <service android:name=".services.DownloadService" />
+        <service android:name=".services.MyClipService" />
+    </application>
+
+</manifest>

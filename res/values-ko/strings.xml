@@ -1,0 +1,340 @@
+<resources>
+    <string name="app_name">연아튜브</string>
+    <string name="title_activity_main">연아튜브</string>
+    <string name="lo">2</string>
+    <string name="language">ko</string>
+    
+    <string name="back">뒤로 가기</string>
+    <string name="loading">불러오는 중...</string>
+    <string name="close">닫기</string>
+    <string name="save">저장</string>
+    <string name="send">보내기</string>
+    <string name="ok">확인</string>
+    <string name="yes">예</string>
+    <string name="cancel">취소</string>
+    <string name="korean">한국어</string>
+    
+    <string name="message_will_translate">조만간 번역해서 업데이트 하겠습니다. 양이 너무 많아서..ㅠㅠ 도와주실분 피드백주세요~</string>
+    <string name="message_back_pressed">연아튜브를 종료하시려면 뒤로 가기를 한번 더 눌러주세요.</string>
+    <string name="message_network_unavailable">인터넷에 연결되어 있지 않습니다. 나중에 다시 시도해 주세요.</string>
+    <string name="message_server_unavailable">서버 접속중에 문제가 생겼습니다. 나중에 다시 시도해 주세요.</string>
+    <string name="message_rate_yunatube">잠시 몇초만 시간을 내서 연아튜브를 평가해 주세요! 여러분의 격려와 응원 하나하나가 큰 힘이 됩니다! 감사합니다.</string>
+    <string name="message_enter_data">아무것도 입력되지 않았습니다. 입력해 주세요!</string>
+    
+    <!-- Actionbar -->
+    <string name="actionbar_search">유튜브 영상 검색</string>
+    <string name="actionbar_settings">설정</string>
+    <string name="actionbar_search_hint">키워드를 입력하세요</string>
+    <string name="actionbar_nickname">닉네임 설정</string>
+    <string name="actionbar_write">Write</string>
+    <string name="actionbar_refresh">Refresh</string>
+    <string name="actionbar_save">Save</string>
+    <string name="actionbar_share">Share</string>
+    <string name="actionbar_share_with">공유하기</string>
+    
+    <!-- Push -->
+    <string name="notification_canceled">푸쉬 알림 받기가 해제되었습니다.</string>
+    <string name="notification_set">푸쉬 알림 받기가 설정되었습니다.</string>
+    
+    <!-- Main -->
+    <string name="dday_event">Skate Canada까지 %1$s일 남았습니다.</string>
+    <string name="dday_sochi">D-%1$s</string>
+    
+    <string name="today_fact_title">오늘의 연아 팩트</string>
+    <string name="today_fact_more_title">더 보기 ></string>
+    <string name="new_videos_title">따끈따끈한 영상들</string>
+    <string name="hot_news_title">떡밥 소식</string>
+    <string name="main_slider_guide_notice">그림을 터치하시면 사라집니다.</string>
+    
+    <string name="today_picture_title">오늘의 사진</string>
+    <string name="today_picture_save">이미지를 살짝 누르시면 저장하실 수 있습니다.</string>
+    <string name="today_picture_save_confirm">이 사진을 저장하시겠습니까?</string>
+    
+    <string name="rate_yunatube_title">연아튜브를 평가해 주세요!</string>
+    <string name="rate_later">다음에 하기</string>
+    
+    <!-- Search -->
+    <string name="search_direction">유튜브 영상을 검색해 보세요!</string>
+    <string name="search_keyword">검색어를 입력하세요.</string>
+    <string name="search_no_results">결과를 찾을 수 없습니다.\n다른 검색어로 다시 찾아보세요!</string>
+    
+    <!-- Settings -->
+    <string name="settings_user">사용자</string>
+    <string name="settings_set_username">닉네임 설정</string>
+    <string name="settings_app">앱 설정</string>
+    <string name="settings_receive_push">푸쉬 알림 받기</string>
+    <string name="settings_thoughts">평가</string>
+    <string name="settings_feedback">피드백</string>
+    <string name="settings_googleplay">연아튜브 앱을 평가해 주세요!</string>
+    <string name="settings_message">연아튜브는 올림픽 챔피언이자 이쁘고 사랑스러운 피겨 여왕 김연아 선수를 위해 만들어진 앱입니다.\n여왕님 사랑해요! 핡♥ ㅇㅇㄴㄲ!</string>
+    <string name="settings_by">개발: 토론토 승냥이\n일러스트: 아나킨, 이리온\n손글씨: Nanalogue J</string>
+    
+    <string name="feedback_email">paul@paulshin.ca</string>
+    <string name="feedback_subject">연아튜브에 대한 피드백</string>
+    <string name="feedback_text"></string>
+    <string name="feedback_chooser">피드백 보내기</string>
+    <string name="nickname_set">닉네임 설정</string>
+    <string name="nickname_desc">이 닉네임은 유튜브 영상에 댓글을 달거나 연아선수에게 메시지를 남길때 사용됩니다.</string>
+    <string name="nickname_length">최대 10글자까지 사용하실 수 있습니다.</string>
+    <string name="nickname_successful">닉네임이 정상적으로 설정되었습니다.</string>
+    <string name="nickname_noname">승냥이</string>
+    <string name="nickname_must">본인 고유의 닉네임을 설정해 주세요.</string>
+    
+    <!-- Jukebox -->
+    <string name="jukebox_notice_2">영상과 음악은 순서대로 무한 재생됩니다. 그러나 유튜브의 특성상 화면이 꺼지거나 앱이 닫기거나 인터넷에 연결되지 않을 경우에는 재생되지 않으니 양해 바랍니다.</string>
+    
+    <!-- Game -->
+    <string name="game_score_replay">한번 더</string>
+    <string name="game_score_rank">랭킹 확인</string>
+    <string name="game_score_earned">%1$d점을 획득하셨습니다!</string>
+    <string name="game_hint">힌트</string>
+    <string name="game_hint_label">힌트 - %1$d번</string>
+    <string name="game_hint_remaining">%1$d번의 힌트 찬스가 남아있습니다.</string>
+    <string name="game_hint_nomore">힌트 찬스를 다 사용하셨습니다. 본능을 믿고 찍기 고고싱!</string>
+    <string name="game_intro">자, 심심하신 승냥이들을 위해 간단하고 쉬운 게임을 준비했습니다. 일명 짝 찾기 게임인데요. 8쌍의 연아선수 사진이 무작위로 섞여서 배열됩니다. 전체 배열이 보여지는 시간은 초반 시작 5초간, 그리고 두 번의 힌트찬스 동안입니다. 최대한 빨리 사진 짝들을 기억하신 후 승냥이 이미지들로 가려진 사진들을 클릭해서 짝을 찾으시면 됩니다. 힌트찬스를 사용하지 않을수록, 틀린 시도가 적을수록, 최대한 빨리 찾을수록 획득할 수 있는 점수는 늘어납니다. 도전은 무제한! 님도보고 뽕도따고 기억력 훈련도 하고(?) 랭킹도 올리고.. 지금 바로 도전하세요! 20세트는 16세트보다 가산점이 1.8배 더 높습니다.\n\n아 유 레디?</string>
+    
+    <!-- Chatting -->
+    <string name="chat_register_error">대화방 참여에 실패하였습니다. 대화방을 닫습니다.</string>
+    <string name="chat_message_error">메시지 전송에 실패하였습니다. 대화방을 닫습니다.</string>
+    <string name="chat_close_title">대화방 닫기</string>
+    <string name="chat_close_message">대화방에서 나가시겠습니까? 대화 내용은 저장되지 않습니다.</string>
+    <string name="chat_set_nickname">닉네임을 정하시지 않으셨기 때문에\n아이디가 [%1$s]로 나타납니다.\n메인 메뉴에서 닉네임을 설정하세요!</string>
+    <string name="chat_change_avatar">아바타 변경</string>
+    <string name="chat_see_users">현재 접속자 조회</string>
+    <string name="chat_etiquette">매너있게 상대방을 배려하면서 즐거운 시간 되세연아!\n닉네임 변경은 메뉴 옵션 버튼을 누르시면 됩니다.\n승냥승냥!</string>
+    <string name="chat_current_users">현재 %1$d마리의 승냥이들이 승냥거리고 있습니다.\n%2$s</string>
+    <string name="chat_in">%1$s 승냥이가 입장했습니다.</string>
+    <string name="chat_out">%1$s 승냥이가 퇴장했습니다.</string>
+    <string name="chat_nick_change">닉네임 변경: %1$s => %2$s</string>
+    <string name="chat_set_avatar_title">아바타 설정</string>
+    <string name="chat_set_avatar_message">여러분의 아바타를 클릭하세요.</string>
+    <string name="chat_sticker">스티커 잠그기</string>
+    <string name="chat_sticker_on">다른 승냥이들의 스티커를 볼수 있습니다.</string>
+    <string name="chat_sticker_off">다른 승냥이들의 스티커를 보지 않습니다.</string>
+    <string name="chat_toseung">토론토승냥이</string>
+    
+    <!-- Submenu -->
+    <string name="supermenu_home">처음으로</string>
+    <string name="supermenu_about_yuna">나는 김연아다</string>
+    <string name="supermenu_about_yuna_desc">연아의 모든것을 소개합니다.</string>
+    <string name="supermenu_yuna_news">연아 뉴스</string>
+    <string name="supermenu_yuna_news_desc">터치 한방에 최신 연아 뉴스를!</string>
+    <string name="supermenu_youtube">영상 창고</string>
+    <string name="supermenu_youtube_desc">연아의 모든 동영상을 담았습니다.</string>
+    <string name="supermenu_album">사진 창고</string>
+    <string name="supermenu_album_desc">연아의 모든 사진을 볼까요.</string>
+    <string name="supermenu_gif">움짤 창고</string>
+    <string name="supermenu_gif_desc">GIF 애니메이션 파일 모음집</string>
+    <string name="supermenu_search">웹에서 연아 검색</string>
+    <string name="supermenu_search_desc">터치 3번에 연아 정보를!</string>
+    <string name="supermenu_links">패밀리 사이트</string>
+    <string name="supermenu_links_desc">연아와 피겨 사이트 모음</string>
+    <string name="supermenu_message">연아야 ♥해!</string>
+    <string name="supermenu_message_desc">여러분의 ♥을 보내세요!</string>
+    <string name="supermenu_survey">설문 조사</string>
+    <string name="supermenu_survey_desc">승냥이 여론조사!</string>
+    <string name="supermenu_quiz">연아학 개론 퀴즈</string>
+    <string name="supermenu_quiz_desc">승냥이 지식 테스트!</string>
+    <string name="supermenu_chat">승냥승냥 대화방</string>
+    <string name="supermenu_chat_desc">승냥이들끼리 담소를 나눠요!</string>
+    <string name="supermenu_game">쌍둥이 연아찾기!</string>
+    <string name="supermenu_game_desc">똑같은 연아 사진들을 찾아보세요!</string>
+    
+    <!-- About Yuna -->
+    <string name="submenu_about_yuna_profile">프로필</string>
+    <string name="submenu_about_yuna_profile_desc">연아의 간략한 소개</string>
+    <string name="submenu_about_yuna_yunakimcom">www.YUNAKIM.com</string>
+    <string name="submenu_about_yuna_yunakimcom_desc">연아의 공식 홈페이지</string>
+    <string name="submenu_about_yuna_questions">20문 20답</string>
+    <string name="submenu_about_yuna_questions_desc">연아가 답하는 연아의 이야기</string>
+    <string name="submenu_about_yuna_wikipedia">위키피디아</string>
+    <string name="submenu_about_yuna_wikipedia_desc">위키피디아의 연아 정보</string>
+    <string name="submenu_about_yuna_programs">프로그램들</string>
+    <string name="submenu_about_yuna_programs_desc">피겨스케이터로서 연기한 모든 것</string>
+    <string name="submenu_about_yuna_isu_records">공식 출전 기록</string>
+    <string name="submenu_about_yuna_isu_records_desc">ISU 사이트 공식 기록</string>
+    <string name="submenu_about_yuna_results">상세 경기 결과</string>
+    <string name="submenu_about_yuna_results_desc">경기 출전 내용과 결과</string>
+    <string name="submenu_about_yuna_awards">수상 내역들</string>
+    <string name="submenu_about_yuna_awards_desc">각종 수상 내역 및 정보</string>
+    <string name="submenu_about_yuna_charities">자선 활동 및 기부</string>
+    <string name="submenu_about_yuna_charities_desc">받은만큼 베푸는 연아의 기부</string>
+    <string name="submenu_about_yuna_praises">연아를 평하다</string>
+    <string name="submenu_about_yuna_praises_desc">세계가 바라보는 연아</string>
+    
+    <string name="profile_born">&lt;b&gt;생년월일: &lt;/b&gt; 1990년 9월 5일</string>
+    <string name="profile_nationality">&lt;b&gt;국적: &lt;/b&gt; 대한민국</string>
+    <string name="profile_occupation">&lt;b&gt;직업: &lt;/b&gt; 피겨 스케이트 선수</string>
+    <string name="profile_height">&lt;b&gt;키: &lt;/b&gt; 164cm (5ft 4.5in)</string>
+    <string name="profile_base">&lt;b&gt;훈련 장소: &lt;/b&gt; 태릉 선수촌</string>
+    <string name="profile_agent">&lt;b&gt;소속사: &lt;/b&gt; 올댓스포츠</string>
+    <string name="profile_family">&lt;b&gt;가족: &lt;/b&gt; 아버지, 어머니, 언니 + 하늘이와 토토</string>
+    <string name="profile_titles">&lt;b&gt;주요 타이틀: &lt;/b&gt; 2010 밴쿠버 올림픽 챔피언, 2014 소치 올림픽 (사실상 챔피언인) 은메달리스트, 2013, 2009 월드 챔피언, 2009 사대륙 챔피언, 2006-7, 7-8, 9-10 그랑프리 챔피언, 2006 월드 주니어 챔피언, 2005-6 주니어 그랑프리 챔피언</string>
+    <string name="profile_records">&lt;b&gt;개인 최고 기록: &lt;/b&gt; 총합 228.56(세계신기록), 쇼트 78.50(세계신기록), 프리 150.06(세계신기록)</string>
+    
+    <string name="wiki_url">http://ko.m.wikipedia.org/wiki/김연아</string>
+    
+    <!-- YouTube -->
+    <string name="submenu_youtube_hot_news">따끈따끈한 떡 to the 밥</string>
+    <string name="submenu_youtube_my_faves">즐겨찾기</string>
+    <string name="submenu_youtube_random">랜덤 재생</string>
+    <string name="submenu_youtube_greetings">연아의 인사</string>
+    <string name="submenu_youtube_competitions">경기 영상들</string>
+    <string name="submenu_youtube_iceshows">아이스 쇼</string>
+    <string name="submenu_youtube_offtheice">링크 밖에서</string>
+    <string name="submenu_youtube_knc">연아의 키스앤 크라이</string>
+    <string name="submenu_youtube_jukebox">연아의 노래상자</string>
+    <string name="submenu_youtube_muhan">무한~도전!</string>
+    <string name="submenu_youtube_guru">무릎팍 도사</string>
+    
+    <string name="download_title">영상 다운로드 사용법</string>
+    
+    <string name="random_title">유튜브 랜덤 재생</string>
+    <string name="random_desc">이 동영상을 보시겠습니까?</string>
+    <string name="random_no">다른 영상을 볼래요!</string>
+    
+    <!-- Family Sites -->
+    <string name="submenu_links_official">공식 웹사이트</string>
+    <string name="submenu_links_official_desc">연아의 공식 웹사이트들</string>
+    <string name="submenu_links_fan">팬 페이지</string>
+    <string name="submenu_links_fan_desc">승냥이들의 사이트들</string>
+    <string name="submenu_links_figureskating">피겨 스케이팅 관련 사이트</string>
+    <string name="submenu_links_figureskating_desc">피겨스케이팅이 관련된 사이트 및 포럼들</string>
+    
+    <string name="links_official_yunakim">공식 웹사이트</string>
+    <string name="links_official_yunakim_url">www.yunakim.com</string>
+    <string name="links_official_yunakim_desc">올댓 스포츠에 의해 운영되는 연아의 공식 홈페이지입니다.</string>
+    <string name="links_official_yunaaaa">연아의 트위터</string>
+    <string name="links_official_yunaaaa_url">www.twitter.com/yunaaaa</string>
+    <string name="links_official_yunaaaa_desc">연아가 직접 글을 쓰고 트윗하는 트위터입니다.</string>
+    <string name="links_official_facebook">연아의 페이스북 페이지</string>
+    <string name="links_official_facebook_url">www.facebook.com/pages/Yuna-Kim/53417067377</string>
+    <string name="links_official_facebook_desc">올댓 스포츠에 의해 승인받은, 승냥이들에 의해 운영되는 김연아 공식 페이스북 페이지입니다.</string>
+    <string name="links_official_youtube">공식 유튜브 채널</string>
+    <string name="links_official_youtube_url">www.youtube.com/yunakim</string>
+    <string name="links_official_youtube_desc">연아의 공식 유튜브 채널입니다.</string>
+    <string name="links_official_allthatskate">All That Skate</string>
+    <string name="links_official_allthatskate_url">www.allthatskate.com</string>
+    <string name="links_official_allthatskate_desc">연아의 아이스 쇼 홈페이지입니다. 올댓 스포츠에 의해 운영되고 있습니다.</string>
+    <string name="links_official_allthatskate_youtube">All That Skate 유튜브 채널</string>
+    <string name="links_official_allthatskate_youtube_url">www.youtube.com/allthatskate</string>
+    <string name="links_official_allthatskate_youtube_desc">아이스 쇼 영상들이 올라오는 아이스쇼 관련 공식 유튜브 채널입니다.</string>
+    <string name="links_official_allthatskate_twitter">All That Skate Twitter</string>
+    <string name="links_official_allthatskate_twitter_url">www.twitter.com/allthatskate</string>
+    <string name="links_official_allthatskate_twitter_desc">연아의 아이스 쇼에 관한 정보들이 실시간으로 올라오는 공식 트위터입니다.</string>
+    <string name="links_official_allthatsports">All That Sports</string>
+    <string name="links_official_allthatsports_url">www.atsports.co.kr</string>
+    <string name="links_official_allthatsports_desc">연아의 에이전트 All That Sports의 공식 홈페이지입니다.</string>
+    
+    <string name="links_fan_fevers">피버스케이팅</string>
+    <string name="links_fan_fevers_url">www.feverskating.com</string>
+    <string name="links_fan_fevers_desc"></string>
+    <string name="links_fan_yunacafe">연아 카페(다음)</string>
+    <string name="links_fan_yunacafe_url">www.yunacafe.com</string>
+    <string name="links_fan_yunacafe_desc"></string>
+    <string name="links_fan_yunagall">디씨 연아 갤러리</string>
+    <string name="links_fan_yunagall_url">m.dcinside.com/mylist.php?mygall=yeona</string>
+    <string name="links_fan_yunagall_desc"></string>
+    <string name="links_fan_fsgall">디씨 피겨 스케이팅 갤러리</string>
+    <string name="links_fan_fsgall_url">m.dcinside.com/mylist.php?mygall=figureskating</string>
+    <string name="links_fan_fsgall_desc"></string>
+    <string name="links_fan_fsgallbestposts">디씨 피겨갤 개념글 모음</string>
+    <string name="links_fan_fsgallbestposts_url">m.dcinside.com/mylist.php?mygall=figureskating&amp;recommend=1</string>
+    <string name="links_fan_fsgallbestposts_desc"></string>
+    <string name="links_fan_allthatyuna">All That Yuna</string>
+    <string name="links_fan_allthatyuna_url">www.allthatyuna.com</string>
+    <string name="links_fan_allthatyuna_desc"></string>
+    <string name="links_fan_yunaforum">연아 포럼</string>
+    <string name="links_fan_yunaforum_url">www.yunaforum.com</string>
+    <string name="links_fan_yunaforum_desc"></string>
+    <string name="links_fan_russia">러시아 연아 포럼</string>
+    <string name="links_fan_russia_url">www.yuna-kim.com</string>
+    <string name="links_fan_russia_desc"></string>
+    <string name="links_fan_china">중국 Tudou 채널</string>
+    <string name="links_fan_china_url">www.tudou.com/home/kimyuna</string>
+    <string name="links_fan_china_desc"></string>
+    <string name="links_figureskating_isu">국제 빙상 연맹(ISU)</string>
+    <string name="links_figureskating_isu_url">www.isu.org</string>
+    <string name="links_figureskating_isu_desc">스케이팅에 관한 모든 경기들을 관장하는 국제 기구 ISU의 웹사이트 입니다.</string>
+    <string name="links_figureskating_icenetwork">Ice Network</string>
+    <string name="links_figureskating_icenetwork_url">www.icenetwork.com</string>
+    <string name="links_figureskating_icenetwork_desc">피겨 스케이팅에 관한 뉴스와 정보들이 올라오는 미국 사이트입니다.</string>
+    <string name="links_figureskating_fsu">Figure Skating Universe</string>
+    <string name="links_figureskating_fsu_url">www.fsuniverse.net</string>
+    <string name="links_figureskating_fsu_desc">미국의 피겨스케이팅 포럼입니다.</string>
+    <string name="links_figureskating_golden">Golden Skate</string>
+    <string name="links_figureskating_golden_url">www.goldenskate.com</string>
+    <string name="links_figureskating_golden_desc">미국의 피겨스케이팅 포럼입니다.</string>
+    
+    <!-- Message -->
+    <string name="message_hint">140자의 메시지를 보내주세요!</string>
+    <string name="message_successful">메시지가 성공적으로 전송되었습니다.</string>
+    <string name="message_failed">메시지 전송이 실패하였습니다. 나중에 다시 시도해 주세요.</string>
+    
+    <!-- Yuna on Web -->
+    <string name="search_step_one">무엇을 검색하시고 싶으신가요?</string>
+    <string name="search_step_two">검색어를 선택하세요!</string>
+    <string name="search_step_three">검색 엔진을 살짝 누르세요!</string>
+    <string name="search_type_article">기사 검색</string>
+    <string name="search_type_web">웹 검색</string>
+    <string name="search_news_unavailable">%1$s는 뉴스 검색을 지원하지 않습니다.</string>
+    
+    <!-- Album -->
+    <string name="submenu_album_myalbum">나의 연아 사진첩</string>
+    <string name="album_cannot_see_local">이 기기에서 사진들을 불러올 수 없었습니다. 갤러리 앱으로 저장했던 사진들을 보실 수 있습니다. 죄송합니다!</string>
+    <string name="album_view_fullscreen">전체화면 모드로 보려면 이미지를 살짝 눌러주세요.</string>
+    <string name="album_image_saved">저장되었습니다. 갤러리에서 사진을 확인해 보세요.</string>
+    
+    <!-- Gif -->
+    <string name="submenu_gifs">움짤 갤러리</string>
+    <string name="submenu_gifs_my">나의 움짤들</string>
+    <string name="gif_warning">GIF 파일은 사이즈가 크기 때문에 네트워크 연결 상태에 따라 불러오는 데에 오래 걸릴수도 있습니다. 그러나 GIF 파일을 저장 하신 후에는 나의 움짤들 코너에서 쾌적하게 감상하실 수 있습니다.\n 일부 기기에 따라 움짤들이 빠르게 재생될 수 있습니다.</string>
+    <string name="gif_share">움짤 공유하기</string>
+    <string name="gif_share_subject">이 움짤을 보셨나요?</string>
+    <string name="gif_share_text">김연아 선수의 이 귀여운 움짤을 보세요! %1$s #YunaTube</string>
+    <string name="gif_saved">저장되었습니다. 나의 움짤들에서 사진을 확인해 보세요.</string>
+    
+    <!-- YouTube -->
+    <string name="error_thumbnail_view">초기화 중 오류 발생: YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">YouTubePlayer 초기화 중 오류 발생: (%1$s)</string>
+    <string name="youtube_add_to_my_faves">즐겨찾기에 추가</string>
+    <string name="youtube_remove_from_my_faves">즐겨찾기에서 제거</string>
+    <string name="youtube_share_title">이 영상을 공유하기</string>
+    <string name="youtube_share_subject">이 영상을 보신적이 있나요?</string>
+    <string name="youtube_share_text">김연아 선수의 영상을 감상해 보세요! %1$s: http://youtu.be/%2$s #연아튜브 에서</string>
+    <string name="youtube_share_via">#YunaTube #연아튜브 에서</string>
+    <string name="youtube_comment">댓글 남기기</string>
+    <string name="youtube_no_comments">댓글을 남겨주세요.</string>
+    <string name="youtube_wait">댓글들이 로딩된 후 다시 시도해 주세요.</string>
+    <string name="report_title">재생되지 않는 영상 신고하기</string>
+    <string name="report_message">이 영상이 차단되었나요?</string>
+    <string name="report_successful">신고해 주셔서 감사합니다. 이 영상은 다른 영상으로 최대한 신속히 대체하겠습니다.</string>
+    <string name="rotation">회전</string>
+    <string name="rotation_guide">폰이 가로로 회전될때 풀스크린 자동회전 기능을 끄시려면 체크박스를 해제해 주세요. 그러면 누워서도 편하게 감상하실 수 있습니다. 이제 잠은 다잤네~ 웅컁컁</string>
+    
+    <!-- Faves -->
+    <string name="faves_no_clip">즐겨찾기가 비어있습니다.</string>
+    <string name="cmenu">즐겨찾기 수정하기</string>
+    <string name="cmenu_share">이 영상을 공유하기</string>
+    <string name="cmenu_add_to_my_faves">즐겨찾기에 추가</string>
+    <string name="cmenu_report">이 영상을 보고하기</string>
+    <string name="cmenu_alias">영상 제목 수정</string>
+    <string name="cmenu_resettitle">영상 제목 초기화</string>
+    <string name="cmenu_remove">즐겨찾기에서 제거</string>
+    <string name="cmenu_pop_alias_hint">수정할 이름을 입력하세요.</string>
+    <string name="cmenu_pop_alias">영상 제목 수정</string>
+    <string name="cmenu_pop_alias_failed">The alias cannot be empty</string>
+    <string name="cmenu_pop_alias_successful">%1$s로 변경 되었습니다.</string>
+    <string name="cmenu_pop_resettitle">영상 제목 초기화</string>
+    <string name="cmenu_pop_resettitle_successful">%1$s로 변경 되었습니다.</string>
+    <string name="cmenu_pop_remove_successful">즐겨찾기에서 제거 되었습니다.</string>
+    <string name="cmenu_my_faves_add_successful">%1$s이(가) 즐겨찾기에 추가 되었습니다.</string>
+    <string name="cmenu_my_faves_add_failure">%1$s이(가) 추가되지 않았습니다.</string>
+    
+    <!-- Fool -->
+    <string name="fool_1">김연아, 이상화 \'코카콜라 체육대상\'서 공동 최우수상</string>
+    <string name="fool_2">이상화, 금메달 딴 후 눈물 흘린 이유 @힐링캠프</string>
+    <string name="fool_3">이상화의 소치 이야기</string>
+    <string name="fool_4">이상화 소치에서 500미터 2연패(중국방송)</string>
+    <string name="fool_5">이상화 응원 릴레이</string>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridView
+        android:id="@+id/panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:padding="@dimen/grid_padding"
+        android:verticalSpacing="6dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/panel" >
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="00 : 00"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/timer"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/attempts_layout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/correct_attempts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/game_check_mark"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/wrong_attempts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/correct_attempts"
+                android:drawableLeft="@drawable/game_x_mark"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/attempts_layout"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/attempts_layout"
+            android:layout_toRightOf="@+id/timer"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/result_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/attempts_layout"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/attempts_layout"
+            android:layout_toRightOf="@+id/timer"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/skyblue_gradient_background"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/intro_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20.0dip"
+            android:src="@drawable/game_title" />
+
+        <TextView
+            android:id="@+id/intro_text_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intro_title"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/game_intro" />
+        
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/game_16set"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="15.0dp"
+                    android:background="@drawable/card_background_selector"
+                    android:padding="2.0dp"
+                    android:src="@drawable/game_16set" />
+
+                <ImageButton
+                    android:id="@+id/game_20set"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="15.0dp"
+                    android:background="@drawable/card_background_selector"
+                    android:padding="2.0dp"
+                    android:src="@drawable/game_20set" />
+            </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/hint"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/game_hint">
+    </item>
+    
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="@string/game_score_replay">
+    </item>
+    
+    <item
+        android:id="@+id/ranking"
+        android:icon="@drawable/ic_action_users"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="@string/game_score_rank">
+    </item>
+
+</menu>

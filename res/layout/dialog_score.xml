@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_shadow"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_white_bg" >
+
+            <ImageView
+                android:id="@+id/very_good"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/game_good" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/very_good"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Scores earned"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <LinearLayout
+                android:id="@+id/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/score"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="13dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/score_replay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:padding="7dp"
+                    android:text="@string/game_score_replay"
+                    android:textColor="#454545"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/score_rank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:padding="7dp"
+                    android:text="@string/game_score_rank"
+                    android:textColor="#454545"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/score_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/buttons"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/close"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/score_close"
+                android:background="@null" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

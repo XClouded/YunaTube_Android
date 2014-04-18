@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="search_keyword">
+		<item>Yuna Kim</item>
+ 		<item>김연아</item>
+	</string-array>
+	
+    <string-array name="search_keyword_value">
+ 		<item>김연아</item>
+		<item>Yuna%20Kim</item>
+	</string-array>
+
+</resources>

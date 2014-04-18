@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/image_list_navi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="4dip"
+        android:text="2010 Vancouver > SP > 007"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:id="@+id/image_list_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/image_list_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:padding="@dimen/grid_padding"
+        android:verticalSpacing="6dp" />
+
+</LinearLayout>

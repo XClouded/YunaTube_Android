@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    
+	<color name="list_background">#ddf3fe</color>
+	<color name="dialog_background">#DDDDDD</color>
+	
+    <!--  From Keek -->
+
+    <color name="add_comments_text_col">#696969</color>
+    <color name="sky_color">#f4f5f7</color>
+    <color name="dashboard_background">#ECF6F8</color>
+    <color name="dialog_transparent">#C1000000</color>
+    <color name="duration_background">#90000000</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="grey_text">#7C7C7C</color>
+    <color name="dark_grey">#3C3C3C</color>
+    <color name="empty_list">#B6B6B6</color>
+    <color name="light_blue">#F3F9FB</color>
+    <color name="light_divider">#CCCCCC</color>
+    <color name="linkify_blue">#336699</color>
+    <color name="linkify_light_blue">#99CCFF</color>
+    <color name="list_divider">#D4D4D4</color>
+    <color name="listview_cache">#D3D3D3</color>
+    <color name="login_signup_label">#455A76</color>
+    <color name="other_user_comment_row_background">#F3F9FB</color>
+    <color name="remaining_character">#8D8D8D</color>
+    <color name="review_share_title">#8D8E8F</color>
+    <color name="review_share_item">#323C42</color>
+    <color name="seperator">#ACACAC</color>
+    <color name="user_selfcomment_row_background">#E6ECEE</color>
+    <color name="view_comments_text">#1E6E9E</color>
+    <color name="mail_read">#70000000</color>
+	<color name="dark">#323c42</color>
+	
+	<color name="actionbar_solid">#063950</color>
+	
+	<color name="pressed">#CC2F93B8</color>
+	<color name="drawer_default">#ED0F2430</color>
+	<color name="drawer_selected">#FFFFFF</color>
+	<color name="drawer_pressed">#1B587C</color>
+	<color name="list_item_pressed">#772786BA</color>
+	<color name="card_pressed">#55229DC1</color>
+	<color name="shadow_start">#55000000</color>
+	<color name="shadow_end">#00000000</color>
+	
+	<color name="primary_black">#323c42</color>
+	<color name="primary_grey">#AAAAAA</color>
+	<color name="secondary_grey">#7c7c7c</color>
+	<color name="paywall_glow">#88D9FF</color>
+	<color name="paywall_text">#CCCCCC</color>
+	
+	<color name="bio_item_solid">#F1F1F1</color>
+</resources>

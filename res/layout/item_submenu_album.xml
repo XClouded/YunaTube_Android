@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/submenu_about_yuna_profile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/submenu_menu_selector" >
+
+    <!--
+    <ImageView
+        android:id="@+id/list_image"
+		android:layout_width="72dip"
+		android:layout_height="54dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/list_image"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/superMenuItemText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foo"
+            android:textAppearance="@style/superMenuDescriptionText" />
+    </LinearLayout>
+    -->
+
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:textAppearance="@style/superMenuItemText" />
+
+</RelativeLayout>

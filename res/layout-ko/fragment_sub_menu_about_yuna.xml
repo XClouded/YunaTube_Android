@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0c4c7a" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_back_selector" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back"
+                    android:textAppearance="@style/superMenuItemText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_selector" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_profile"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_profile_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_yunakimcom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_selector" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_yunakimcom"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_yunakimcom_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_selector" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_questions"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_questions_desc"
+                    android:layout_below="@+id/title1"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_wikipedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_selector" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_wikipedia"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_wikipedia_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_programs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_selector" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_programs"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_programs_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_isu_records"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_selector"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_isu_records"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_isu_records_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_selector" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_results"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_results_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_awards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_selector" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_awards"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_awards_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_charities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_selector" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_charities"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_charities_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/submenu_about_yuna_praises"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submenu_menu_bottom_selector" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_praises"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submenu_about_yuna_praises_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

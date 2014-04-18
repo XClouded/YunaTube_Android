@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b323f" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/supermenu_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_0" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView0"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_home"
+                    android:textAppearance="@style/superMenuItemText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_about_yuna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_about_yuna"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_about_yuna_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_to_yuna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_2" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView6" >
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_message"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t1"
+                    android:text="@string/supermenu_message_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_youtube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_4" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView3"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_youtube"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_youtube_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_5" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView4"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_album"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_album_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_gifs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_6" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView4"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_gif"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_gif_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_links"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_8" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView6"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_links"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_links_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_survey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_9" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView6" >
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_survey"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t1"
+                    android:text="@string/supermenu_survey_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_10" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView" >
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_quiz"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t2"
+                    android:text="@string/supermenu_quiz_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/ImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_11" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView" >
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_chat"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t2"
+                    android:text="@string/supermenu_chat_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_7" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView5"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_search"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_search_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/supermenu_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/supermenu_menu_bottom_selector" >
+
+            <ImageView
+                android:id="@+id/ImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/supermenu_14" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/ImageView" >
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supermenu_game"
+                    android:textAppearance="@style/superMenuItemText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t2"
+                    android:text="@string/supermenu_game_desc"
+                    android:textAppearance="@style/superMenuDescriptionText" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

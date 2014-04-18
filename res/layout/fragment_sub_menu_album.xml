@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/submenu_album_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/submenu_menu_back_selector" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/back"
+            android:textAppearance="@style/superMenuItemText" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/submenu_album_myalbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/submenu_menu_myclips_selector" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submenu_album_myalbum"
+                android:textAppearance="@style/superMenuItemText" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0c4c7a"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+</LinearLayout>

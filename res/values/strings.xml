@@ -1,0 +1,342 @@
+<resources>
+    <string name="app_name">YunaTube</string>
+    <string name="title_activity_main">YunaTube</string>
+    <string name="app_version">3.4.0</string>
+    <string name="app_version_date">20140120</string>
+    <string name="lo">1</string>
+    <string name="language">en</string>
+    
+    <string name="back">Back</string>
+    <string name="loading">Loading...</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="send">Send</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="korean">한국어</string>
+    
+    <string name="message_will_translate">This page will be translated soon.</string>
+    <string name="message_back_pressed">Press Back button if you want to exit</string>
+    <string name="message_network_unavailable">There\'s no network connection right now.\nPlease try again later!</string>
+    <string name="message_server_unavailable">Oops, something bad happened when retrieving data from the server.\nPlease try again later!</string>
+    <string name="message_rate_yunatube">Can you spare a few seconds to evaluate YunaTube on Google Play? Thank you for your support and feedback!</string>
+    <string name="message_enter_data">Please enter something!</string>
+    
+    <!-- Actionbar -->
+    <string name="actionbar_search">Search</string>
+    <string name="actionbar_settings">Settings</string>
+    <string name="actionbar_search_hint">Enter a keyword</string>
+    <string name="actionbar_nickname">Set a nickname</string>    
+    <string name="actionbar_save">Save</string>
+    <string name="actionbar_write">Write</string>
+    <string name="actionbar_refresh">Refresh</string>
+    <string name="actionbar_share">Share</string>
+    <string name="actionbar_share_with">Share with…</string>
+    
+    <!-- Push -->
+    <string name="notification_canceled">Push notification is disabled.</string>
+    <string name="notification_set">Push notification is enabled.</string>
+    
+    <!-- Main -->
+	<string name="dday_event">%1$s days until Skate Canada.</string>
+    <string name="dday_sochi">D-%1$s</string>
+    
+    <string name="today_fact_title">Today\'s Yuna Fact</string>
+    <string name="today_fact_more_title">More ></string>
+    <string name="new_videos_title">New Videos</string>
+    <string name="hot_news_title">Hot News</string>
+    <string name="main_slider_guide_notice">Image will disappear when you touch it.</string>
+    
+    <string name="today_picture_title">Today\'s Photo</string>
+    <string name="today_picture_save">Tap the image to save.</string>
+    <string name="today_picture_save_confirm">Do you want to save this image?</string>
+    
+    <string name="rate_yunatube_title">Rate YunaTube!</string>
+    <string name="rate_later">Rate later</string>
+    
+    <!-- Search -->
+    <string name="search_direction">Find Yuna\'s Videos</string>
+    <string name="search_keyword">Enter a keyword.</string>
+    <string name="search_no_results">No results found.\nTry with a different keyword.</string>
+    
+    <!-- Settings -->
+    <string name="settings_user">User</string>
+    <string name="settings_set_username">Set Username</string>
+    <string name="settings_app">App Settings</string>
+    <string name="settings_receive_push">Receive Push Notifications</string>
+    <string name="settings_thoughts">Your Thoughts</string>
+    <string name="settings_feedback">Feedback</string>
+    <string name="settings_googleplay">Rate YunaTube app!</string>
+    <string name="settings_message">YunaTube is dedicated to the one and only champion, Queen Yuna! \nWe ♥ Yuna from the bottom of our hearts!</string>
+    <string name="settings_by">Developer: Toronto Dhole\nIllustrator: Leoniie Waffle, 2RioN\nCalligrapher: Nanalogue J</string>
+    
+    <string name="feedback_email">paul@paulshin.ca</string>
+    <string name="feedback_subject">Feedback on YunaTube!</string>
+    <string name="feedback_text"></string>
+    <string name="feedback_chooser">Send Feedback</string>
+    
+    <string name="nickname_set">Set a nickname</string>
+    <string name="nickname_desc">Your nickname will be used when you post comment to YouTube or send a message for Yuna.</string>
+    <string name="nickname_length">You can use up to 10 characters.</string>
+    <string name="nickname_successful">Your new nickname is successfully set.</string>
+    <string name="nickname_noname">Dhole</string>
+    <string name="nickname_must">Please set your own nickname in order to continue.</string>
+    
+    <!-- Jukebox -->
+    <string name="jukebox_notice_2">YouTube clips will play in a loop. However, due to the restrictions of YouTube, the jukebox will not play if the app is closed or the screen is turned off or there is no internet connection.</string>
+    
+    <!-- Game -->
+    <string name="game_score_replay">Play Again</string>
+    <string name="game_score_rank">Check Rank</string>
+    <string name="game_score_earned">You just scored %1$d points!</string>
+    <string name="game_hint">Hint</string>
+    <string name="game_hint_label">Hint - %1$d</string>
+    <string name="game_hint_remaining">You have %1$d chances remaining.</string>
+    <string name="game_hint_nomore">You can\'t use hint anymore. Trust your instinct!</string>
+    <string name="game_intro">For those bored dholes, we brought a fun game! This is so-called matching pictures game. There are 8 pairs of Yuna pictures shuffled in a grid. You can only see the whole pictures in the first 5 seconds and while using 2 hint chances. The less you use the hint chances and make wrong attempts, the more points you will score. Of course, finding pairs as quickly as possible is the key! You can simply start the game by touching the screen. The 20 set stage has 1.8 times more factor than the 16 set stage.\n\nR U READY?</string>
+    
+    <!-- Submenu -->
+    <string name="supermenu_home">Home</string>
+    <string name="supermenu_about_yuna">About Yuna</string>
+    <string name="supermenu_about_yuna_desc">Yuna\'s profile</string>
+    <string name="supermenu_yuna_news">Yuna News</string>
+    <string name="supermenu_yuna_news_desc">Search for Yuna news</string>
+    <string name="supermenu_youtube">YouTube</string>
+    <string name="supermenu_youtube_desc">YouTube clips of Yuna</string>
+    <string name="supermenu_album">Album</string>
+    <string name="supermenu_album_desc">Photo collections of Yuna</string>
+    <string name="supermenu_gif">Animations</string>
+    <string name="supermenu_gif_desc">Collection of GIF files</string>
+    <string name="supermenu_search">Yuna on the Web</string>
+    <string name="supermenu_search_desc">Search for Yuna on the Web</string>
+    <string name="supermenu_links">Family Sites</string>
+    <string name="supermenu_links_desc">Websites about Yuna &amp; skating</string>
+    <string name="supermenu_message">Yuna, I ♥ You!</string>
+    <string name="supermenu_message_desc">Send your ♥ to Yuna!</string>
+    <string name="supermenu_survey">Survey</string>
+    <string name="supermenu_survey_desc">Show your thoughts!</string>
+    <string name="supermenu_quiz">Quiz Room</string>
+    <string name="supermenu_quiz_desc">How much u kno about her?</string>
+    <string name="supermenu_chat">Chat Room</string>
+    <string name="supermenu_chat_desc">Let\'s chat!</string>
+    <string name="supermenu_game">Finding Yuna</string>
+    <string name="supermenu_game_desc">Wanna play a game?</string>
+    
+    <!-- About Yuna -->
+    <string name="submenu_about_yuna_profile">Profile</string>
+    <string name="submenu_about_yuna_profile_desc">Yuna\'s brief info.</string>
+    <string name="submenu_about_yuna_yunakimcom">www.YUNAKIM.com</string>
+    <string name="submenu_about_yuna_yunakimcom_desc">Yuna\'s official website</string>
+    <string name="submenu_about_yuna_questions">20Q 20A</string>
+    <string name="submenu_about_yuna_questions_desc">Questions and Answers</string>
+    <string name="submenu_about_yuna_wikipedia">Wikipedia</string>
+    <string name="submenu_about_yuna_wikipedia_desc">View Wikipedia</string>
+    <string name="submenu_about_yuna_programs">Programs</string>
+    <string name="submenu_about_yuna_programs_desc">Yuna\'s masterpieces</string>
+    <string name="submenu_about_yuna_isu_records">Official Records</string>
+    <string name="submenu_about_yuna_isu_records_desc">ISU competition scores</string>
+    <string name="submenu_about_yuna_results">Competitions</string>
+    <string name="submenu_about_yuna_results_desc">Yuna\'s competition results</string>
+    <string name="submenu_about_yuna_awards">Awards</string>
+    <string name="submenu_about_yuna_awards_desc">Yuna\'s awards data</string>
+    <string name="submenu_about_yuna_charities">Charities</string>
+    <string name="submenu_about_yuna_charities_desc">Yuna\'s humanitarian activities</string>
+    <string name="submenu_about_yuna_praises">Praises</string>
+    <string name="submenu_about_yuna_praises_desc">How the world thinks about Yuna</string> 
+    
+    <string name="profile_born">&lt;b&gt;Born: &lt;/b&gt; September 5, 1990</string>
+    <string name="profile_nationality">&lt;b&gt;Nationality: &lt;/b&gt; Korea</string>
+    <string name="profile_occupation">&lt;b&gt;Occupation: &lt;/b&gt; Figure Skater</string>
+    <string name="profile_height">&lt;b&gt;Height: &lt;/b&gt; 164cm (5ft 4.5in)</string>
+    <string name="profile_base">&lt;b&gt;Training Base: &lt;/b&gt; Taeneung Athlete Village</string>
+    <string name="profile_agent">&lt;b&gt;Agent: &lt;/b&gt; All That Sports</string>
+    <string name="profile_family">&lt;b&gt;Family: &lt;/b&gt; Father, Mother, Elder sister and two dogs</string>
+    <string name="profile_titles">&lt;b&gt;Major Titles: &lt;/b&gt; 2010 Vancouver Olympic Champion, 2014 Sochi Plympic Silver medalist, 2009, 2013 World Champion, 2009 4CC Champion, 2006-7, 7-8, 9-10 Grand Prix Champion, 2006 World Junior Champion, 2005-6 Junior Grand Prix Champion</string>
+    <string name="profile_records">&lt;b&gt;Personal Best Records: &lt;/b&gt; Combined Total 228.56(WR), SP 78.50(WR), FS 150.06(WR)</string>
+    
+    <string name="wiki_url">http://en.m.wikipedia.org/wiki/Yuna_kim</string>
+    
+    <!-- YouTube -->
+    <string name="submenu_youtube_hot_news">How News</string>
+    <string name="submenu_youtube_my_faves">My Faves</string>
+    <string name="submenu_youtube_random">Random</string>
+    <string name="submenu_youtube_greetings">Greetings</string>
+    <string name="submenu_youtube_competitions">Competitions</string>
+    <string name="submenu_youtube_iceshows">Ice Shows</string>
+    <string name="submenu_youtube_offtheice">Off the Ice</string>
+    <string name="submenu_youtube_knc">Kiss &amp; Cry</string>
+    <string name="submenu_youtube_jukebox">Jukebox</string>
+    <string name="submenu_youtube_muhan">Infinity Challenge</string>
+    <string name="submenu_youtube_guru">Guru Show</string>
+    
+    <string name="download_title">How to download</string>
+    
+    <string name="random_title">Random YunaTube Play</string>
+    <string name="random_desc">Do you want to watch this clip?</string>
+    <string name="random_no">Something else!</string>
+    
+    <!-- Family Sites -->
+    <string name="submenu_links_official">Official Pages</string>
+    <string name="submenu_links_official_desc">Websites run by AllThatSports</string>
+    <string name="submenu_links_fan">Fan Pages</string>
+    <string name="submenu_links_fan_desc">Websites run by Yuna\'s fans</string>
+    <string name="submenu_links_figureskating">Figure Skating Sites</string>
+    <string name="submenu_links_figureskating_desc">Figure Skating sites, forums</string>
+    
+    <string name="links_official_yunakim">Official Yuna Kim Website</string>
+    <string name="links_official_yunakim_url">www.yunakim.com</string>
+    <string name="links_official_yunakim_desc">Yuna\'s official website managed by her agency.</string>
+    <string name="links_official_yunaaaa">Yuna\'s Twitter</string>
+    <string name="links_official_yunaaaa_url">www.twitter.com/yunaaaa</string>
+    <string name="links_official_yunaaaa_desc">Yuna\'s personal twitter account.</string>
+    <string name="links_official_facebook">Authorized Facebook Page</string>
+    <string name="links_official_facebook_url">www.facebook.com/pages/Yuna-Kim/53417067377</string>
+    <string name="links_official_facebook_desc">Facebook Fan Page of Yuna. This page is authorized by her agency but is maintained by fans.</string>
+    <string name="links_official_youtube">Official YouTube Channel</string>
+    <string name="links_official_youtube_url">www.youtube.com/yunakim</string>
+    <string name="links_official_youtube_desc">Yuna\'s official youTube channel.</string>
+    <string name="links_official_allthatskate">All That Skate</string>
+    <string name="links_official_allthatskate_url">www.allthatskate.com</string>
+    <string name="links_official_allthatskate_desc">Yuna\'s ice show website.</string>
+    <string name="links_official_allthatskate_youtube">All That Skate Youtube Channel</string>
+    <string name="links_official_allthatskate_youtube_url">www.youtube.com/allthatskate</string>
+    <string name="links_official_allthatskate_youtube_desc">YouTube channel of All That Skate. Ice show video clips are available here.</string>
+    <string name="links_official_allthatskate_twitter">All That Skate Twitter</string>
+    <string name="links_official_allthatskate_twitter_url">www.twitter.com/allthatskate</string>
+    <string name="links_official_allthatskate_twitter_desc">Yuna\'s ice show information is updated live. You can ask any questions regarding the show.</string>
+    <string name="links_official_allthatsports">All That Sports</string>
+    <string name="links_official_allthatsports_url">www.atsports.co.kr</string>
+    <string name="links_official_allthatsports_desc">Yuna\'s agency, All That Sports website.</string>
+    
+    <string name="links_fan_fevers">Fever Skating</string>
+    <string name="links_fan_fevers_url">www.feverskating.com</string>
+    <string name="links_fan_fevers_desc"></string>
+    <string name="links_fan_yunacafe">Yuna Cafe</string>
+    <string name="links_fan_yunacafe_url">www.yunacafe.com</string>
+    <string name="links_fan_yunacafe_desc"></string>
+    <string name="links_fan_yunagall">DC Inside Yuna Gallery</string>
+    <string name="links_fan_yunagall_url">m.dcinside.com/mylist.php?mygall=yeona</string>
+    <string name="links_fan_yunagall_desc"></string>
+    <string name="links_fan_fsgall">DC Inside Figure Skating Gallery</string>
+    <string name="links_fan_fsgall_url">m.dcinside.com/mylist.php?mygall=figureskating</string>
+    <string name="links_fan_fsgall_desc"></string>
+    <string name="links_fan_fsgallbestposts">DC FS Gallery Best Posts</string>
+    <string name="links_fan_fsgallbestposts_url">m.dcinside.com/mylist.php?mygall=figureskating&amp;recommend=1</string>
+    <string name="links_fan_fsgallbestposts_desc"></string>
+    <string name="links_fan_allthatyuna">All That Yuna</string>
+    <string name="links_fan_allthatyuna_url">www.allthatyuna.com</string>
+    <string name="links_fan_allthatyuna_desc"></string>
+    <string name="links_fan_yunaforum">Yuna Forum</string>
+    <string name="links_fan_yunaforum_url">www.yunaforum.com</string>
+    <string name="links_fan_yunaforum_desc"></string>
+    <string name="links_fan_russia">Russian Yuna Forum</string>
+    <string name="links_fan_russia_url">www.yuna-kim.com</string>
+    <string name="links_fan_russia_desc"></string>
+    <string name="links_fan_china">Chinese Tudou Channel</string>
+    <string name="links_fan_china_url">www.tudou.com/home/kimyuna</string>
+    <string name="links_fan_china_desc"></string>
+    
+    <string name="links_figureskating_isu">International Skating Union</string>
+    <string name="links_figureskating_isu_url">www.isu.org</string>
+    <string name="links_figureskating_isu_desc">Website of the international governing body for competitive ice skating disciplines including figure skating.</string>
+    <string name="links_figureskating_icenetwork">Ice Network</string>
+    <string name="links_figureskating_icenetwork_url">www.icenetwork.com</string>
+    <string name="links_figureskating_icenetwork_desc">Figure Skating news and info site.</string>
+    <string name="links_figureskating_fsu">Figure Skating Universe</string>
+    <string name="links_figureskating_fsu_url">www.fsuniverse.net</string>
+    <string name="links_figureskating_fsu_desc">Figure Skating Fan Forum</string>
+    <string name="links_figureskating_golden">Golden Skate</string>
+    <string name="links_figureskating_golden_url">www.goldenskate.com</string>
+    <string name="links_figureskating_golden_desc">Figure Skating Fan Forum</string>
+    
+    <!-- Message -->
+    <string name="message_hint">Send your love to Yuna in 140 letters!</string>
+    <string name="message_successful">Your message is successfully delivered!</string>
+    <string name="message_failed">Couldn\'t send your message this time. Try again later!</string>
+    
+    <string name="search_title">Yuna on the Web</string>
+    <string name="search_step_one">What do you want to search for?</string>
+    <string name="search_step_two">Choose a keyword!</string>
+    <string name="search_step_three">Tap a search engine!</string>
+    <string name="search_type_article">News Articles</string>
+    <string name="search_type_web">Web Search</string>
+    <string name="search_news_unavailable">News search is not available for %1$s.</string>
+    
+    <!-- Quiz -->
+    <string name="quiz_desc">김연아 선수에 대해 얼마나 알고 계신가요?\n여러분들의 승냥 지식을 테스트해 보세요.\n4지선다형으로 100개의 문제가 출제되어 있습니다.\n각 문제는 4점씩이며 오답을 선택할 경우 1점씩 차감됩니다.\n오답 선택 시 오답이라고 표시가 뜨기 때문에 다른 답을 선택하실 수 있습니다.\n밑에 버튼을 누름과 동시에 타이머가 시작되며 가장 빠른 시간 내에 100문항을 풀수록 유리합니다.\n퀴즈 총점은 \n1200 * 획득점수(400점 만점) / 걸린시간(초)\n로 계산되며 고득점할수록 상위에 랭크됩니다.\n지금 바로 시작해 보세요!\n\n4번째 퀴즈는 피겨 지식에 관한 퀴즈입니다!\n\n네트워크 상태에 따라서 문제를 불러올때 잠깐 멎은것처럼 보일 수도 있는데 잠시 기다리시면 됩니다!</string>
+    <string name="quiz_time">경과 시간</string>
+    <string name="quiz_score">획득 점수</string>
+    <string name="quiz_num">현재 문항</string>
+    <string name="quiz_congrats">축하합니다!\n모든 문제를 푸셨습니다!</string>
+    <string name="quiz_result">획득 점수 : %1$s\n걸린시간 : %2$s\n총점 : %3$s</string>
+    <string name="quiz_enter_nickname">닉네임을 입력해 주세요.</string>
+    <string name="quiz_submit">등록</string>
+    <string name="quiz_one">#1</string>
+    <string name="quiz_two">#2</string>
+    <string name="quiz_three">#3</string>
+    <string name="quiz_four">피겨</string>
+    <string name="quiz_filter_yun">연</string>
+    <string name="quiz_filter_ah">아</string>
+    <string name="quiz_filter_ne">내</string>
+    <string name="quiz_filter_ko">꺼</string>
+    <string name="quiz_filter_a">ㅇ</string>
+    <string name="quiz_filter_n">ㄴ</string>
+    <string name="quiz_filter_k">ㄲ</string>
+    <string name="quiz_filter_nk">ㄴㄲ</string>
+    <string name="quiz_filter_neko">내꺼</string>
+    <string name="quiz_reject">떽! 연아는 토승꺼!</string>
+    
+    <!-- Album -->
+    <string name="submenu_album_myalbum">My Pictures</string>
+    <string name="album_cannot_see_local">Couldn\'t open pictures from this device. Please use Gallery app to see your pictures. Sorry!</string>
+    <string name="album_view_fullscreen">Tap the image to view in fullscreen mode.</string>
+    <string name="album_image_saved">Successfully saved. Check it out in the Gallery.</string>
+
+    <!-- Gif -->
+    <string name="submenu_gifs">GIF Collections</string>
+    <string name="submenu_gifs_my">My GIFs</string>
+    <string name="gif_warning">Since GIF file size is usually big, it will take longer than usual to load images. But once you save GIF files, you can watch them in My Gifs without any delays.</string>
+    <string name="gif_share">Share GIF Image</string>
+    <string name="gif_share_subject">Have you seen this?</string>
+    <string name="gif_share_text">Watch this animation of Yuna! %1$s #YunaTube</string>
+    <string name="gif_saved">Successfully saved. Check it out in My GIFs.</string>
+    
+    <!-- YouTube -->
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="youtube_add_to_my_faves">Add to My Faves</string>
+    <string name="youtube_remove_from_my_faves">Remove from My Faves</string>
+    <string name="youtube_share_title">Share This Clip</string>
+    <string name="youtube_share_subject">Have you seen this clip?</string>
+    <string name="youtube_share_text">Watch this clip of Yuna! %1$s: http://youtu.be/%2$s via #YunaTube</string>
+    <string name="youtube_share_via">via #YunaTube</string>
+    <string name="youtube_cannot_be_added">Sorry, this clip cannot be added to My Faves.</string>
+    <string name="youtube_comment">Comment</string>
+    <string name="youtube_no_comments">Leave a comment.</string>
+    <string name="youtube_wait">Try again after comments are loaded.</string>
+    <string name="report_title">Report Unavailable Clip</string>
+    <string name="report_message">Is this video blocked?</string>
+    <string name="report_successful">Thanks for your report. This video will be replaced by available one shortly!</string>
+    <string name="rotation">Rotation</string>
+    <string name="rotation_guide">You can disable the auto-rotation by unchecking the checkbox!</string>
+    
+    <!-- Faves -->
+    <string name="faves_no_clip">No faved videos.</string>
+    <string name="cmenu">Modify My Faves</string>
+    <string name="cmenu_share">Share this clip</string>
+    <string name="cmenu_add_to_my_faves">Add to My Faves</string>
+    <string name="cmenu_report">Report</string>
+    <string name="cmenu_alias">Set an alias</string>
+    <string name="cmenu_resettitle">Reset title</string>
+    <string name="cmenu_remove">Remove from My Faves</string>
+	<string name="cmenu_pop_alias_hint">Enter an alias.</string>
+    <string name="cmenu_pop_alias">Set an alias</string>
+	<string name="cmenu_pop_alias_failed">The alias cannot be empty.</string>
+    <string name="cmenu_pop_alias_successful">Successfully renamed to %1$s.</string>
+	<string name="cmenu_pop_resettitle">Reset the title</string>
+    <string name="cmenu_pop_resettitle_successful">Successfully reset to %1$s</string>
+    <string name="cmenu_pop_remove_successful">Successfully removed from My Faves.</string>
+    <string name="cmenu_my_faves_add_successful">%1$s was added successfully.</string>
+    <string name="cmenu_my_faves_add_failure">%1$s was not added.</string>
+</resources>

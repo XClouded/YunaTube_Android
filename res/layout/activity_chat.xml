@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:listSelector="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a5ffc7"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/sticker"
+            android:layout_width="51dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="3dp"
+            android:background="@drawable/chat_icons" />
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="4" />
+
+        <ImageButton
+            android:id="@+id/send"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/chat_send" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sticker_layout"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:orientation="vertical"
+        android:background="@android:color/white" >
+
+        <GridView
+            android:id="@+id/sticker_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4" />
+    </LinearLayout>
+
+</LinearLayout>

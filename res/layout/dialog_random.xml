@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_shadow"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_border_top"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/welcome_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:lineSpacingExtra="1dp"
+                android:text="@string/random_title"
+                android:textAppearance="@style/SearchDialogTitleText" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_border_bottom" >
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/random_desc"
+                android:textAppearance="@style/SearchDialogText" />
+
+            <TextView
+                android:id="@+id/random_title"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/desc"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="Vancouver Olympics Gala\Yuna Kim"
+                android:textAppearance="@style/ColoredDialogText" />
+
+            <ImageView
+                android:id="@+id/random_thumb"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/random_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/card_background_selector"
+                android:paddingBottom="7dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/random_stub" />
+
+            <LinearLayout
+                android:id="@+id/buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/random_thumb"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="13dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/random_yes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:padding="7dp"
+                    android:text="@string/yes"
+                    android:textColor="#454545"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/random_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:padding="7dp"
+                    android:text="@string/random_no"
+                    android:textColor="#454545"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/random_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/buttons"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/close"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/random_close"
+                android:background="@null" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

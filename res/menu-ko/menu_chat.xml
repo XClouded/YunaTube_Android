@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/chat_avatar"
+        android:icon="@drawable/ic_action_user"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/chat_change_avatar">
+    </item>
+    <item
+        android:id="@+id/chat_users"
+        android:icon="@drawable/ic_action_users"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/chat_see_users">
+    </item>
+    <item
+        android:id="@+id/nickname"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/actionbar_nickname">
+    </item>
+    <item
+        android:id="@+id/sticker"
+        android:checkable="true"
+        android:checked="true"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/chat_sticker"/>
+
+</menu>
